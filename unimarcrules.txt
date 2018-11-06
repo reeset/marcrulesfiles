@@ -1,0 +1,2240 @@
+200	1	One 200 field must be present in a UNIMARC record. ####Specifies the Primary Title.  In UNIMARC, a record must have a 200 field.
+801	1	One 801 field must be present in a UNIMARC record. ####Specifies the Originating Source.  In UNIMARC, a record must have a 801 field.
+
+001	NR	RECORD IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+	NR	Undefined
+
+003	NR	PERSISTENT RECORD IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+	NR	Undefined
+
+005	NR	VERSION IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+	NR	Undefined
+
+010	R	INTERNATIONAL STANDARD BOOK NUMBER (ISBN)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	69abdz	Valid subfields
+6	NR	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	Number (ISBN)
+b	R	Qualification
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous ISBN
+
+011	R	INTERNATIONAL STANDARD SERIAL NUMBER (ISSN)
+ind1	01	Level of Interest Indicator
+ind2	blank	Undefined
+subfield	9abdfgyz	Valid subfields
+9	NR	Local Subfield
+a	NR	Number (ISSN)
+b	NR	Qualification
+d	R	Terms of Availability and/or Price
+f	NR	ISSN-L or linking ISSN
+g	R	Cancelled ISSN-L
+y	R	Cancelled ISSN
+z	R	Erroneous ISSN or ISSN-L
+
+012	R	FINGERPRINT IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	259a	Valid subfields
+2	NR	Fingerprint System Code
+5	NR	Institution to which the Field Applies
+9	NR	Local Subfield
+a	NR	Fingerprint
+
+013	R	INTERNATIONAL STANDARD MUSIC NUMBER (ISMN)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	69abdz	Valid subfields
+6	NR	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	Number (ISMN)
+b	NR	Qualification
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous ISMN
+
+014	R	ARTICLE IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	29az	Valid subfields
+2	NR	System Code
+9	NR	Local Subfield
+a	NR	Article Identifier
+z	R	Erroneous Article Identifier
+
+015	R	INTERNATIONAL STANDARD REPORT NUMBER (ISRN)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abdz	Valid subfields
+9	NR	Local Subfield
+a	NR	Number (ISRN)
+b	NR	Qualification
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous ISRN
+
+016	R	INTERNATIONAL STANDARD RECORDING CODE (ISRC)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abdz	Valid subfields
+9	NR	Local Subfield
+a	NR	Number (ISRC)
+b	NR	Qualification
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous ISRC
+
+017	R	OTHER STANDARD IDENTIFIER
+ind1	78	Type of identifier
+ind2	012	Difference indicator
+subfield	29abdz	Valid subfields
+2	NR	Source of code
+9	NR	Local Subfield
+a	NR	Number
+b	NR	Qualification
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous Number or Code
+
+020	R	NATIONAL BIBLIOGRAPHY NUMBER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abz	Valid subfields
+9	NR	Local Subfield
+a	NR	Country Code
+b	NR	Number
+z	R	Erroneous Number
+
+021	R	LEGAL DEPOSIT NUMBER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abz	Valid subfields
+9	NR	Local Subfield
+a	NR	Country Code
+b	NR	Number
+z	R	Erroneous Number
+
+022	R	GOVERNMENT PUBLICATION NUMBER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abz	Valid subfields
+9	NR	Local Subfield
+a	NR	Country Code
+b	NR	Number
+z	R	Erroneous Number
+
+033	NR	OTHER SYSTEM PERSISTENT RECORD IDENTIFIER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9az	Valid subfields
+9	NR	Local Subfield
+a	NR	Persistent Record Identifier
+z	R	Cancelled or Invalid Persistent Record Identifier
+
+035	R	OTHER SYSTEMS CONTROL NUMBERS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9az	Valid subfields
+9	NR	Local Subfield
+a	NR	System Control Number
+z	R	Cancelled or Invalid Control Number
+
+036	R	MUSIC INCIPIT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	29abcdefgmnopqrtuz	Valid subfields
+2	NR	System code for musical notation
+9	NR	Local Subfield
+a	NR	Number of work
+b	NR	Number of movement
+c	NR	Number of incipit
+d	NR	Voice/instrument
+e	NR	Role
+f	R	Movement caption/heading
+g	NR	Key or mode
+m	R	Clef
+n	NR	Key signature
+o	NR	Time signature
+p	NR	Musical notation
+q	R	Comments (free text)
+r	NR	Codified note
+t	R	Text incipit
+u	R	Uniform Resource Identifier
+z	R	Language of text
+
+040	R	CODEN
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9az	Valid subfields
+9	NR	Local Subfield
+a	NR	CODEN
+z	R	Erroneous CODEN
+
+071	R	PUBLISHER’S NUMBER
+ind1	0123456	Type of Publisher's Number
+ind2	01	Note Indicator
+subfield	9abcdz	Valid subfields
+9	NR	Local Subfield
+a	NR	Publisher's Number
+b	NR	Source
+c	NR	Qualification
+d	NR	Terms of availability and/or price
+z	NR	Erroneous publisher's number
+
+072	R	UNIVERSAL PRODUCT CODE (UPC)
+ind1	blank	Undefined
+ind2	012	Difference indicator
+subfield	9abcdz	Valid subfields
+9	NR	Local Subfield
+a	NR	Standard Number
+b	NR	Qualification
+c	NR	Additional codes following standard number or codes
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous Number or Code
+
+073	R	INTERNATIONAL ARTICLE NUMBER (EAN)
+ind1	blank	Undefined
+ind2	012	Difference indicator
+subfield	9abcdz	Valid subfields
+9	NR	Local Subfield
+a	NR	Standard Number
+b	NR	Qualification
+c	NR	Additional codes following standard number or codes
+d	NR	Terms of Availability and/or Price
+z	R	Erroneous Number or Code
+
+100	NR	GENERAL PROCESSING DATA
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	General Processing Data
+
+101	NR	LANGUAGE OF THE RESOURCE
+ind1	0128	Translation identifier
+ind2	blank	Undefined
+subfield	9abcdefghij	Valid subfields
+9	NR	Local Subfield
+a	R	Language of Text, Soundtrack etc.
+b	NR	Language of Intermediate Text when Item is Not Translated from Original
+c	R	Language of Original Work
+d	NR	Language of Summary
+e	R	Language of Contents Page
+f	R	Language of Title Page if Different from Text
+g	NR	Language of Title Proper if Not First Language of Text, Soundtrack, etc.
+h	R	Language of Libretto, etc.
+i	NR	Language of Accompanying Material (Other than Summaries, Abstracts or Librettos)
+j	R	Language of Subtitles
+
+102	NR	COUNTRY OF PUBLICATION OR PRODUCTION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	29abc	Valid subfields
+2	R	Source of non-ISO code
+9	NR	Local Subfield
+a	R	Country of publication
+b	R	Locality ( non-ISO)
+c	R	Locality (ISO)
+
+105	NR	CODED DATA FIELD: TEXTUAL LANGUAGE MATERIAL, MONOGRAPHIC
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Monograph Coded Data
+
+106	NR	CODED DATA FIELD: TEXTUAL RESOURCE – FORM
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Form of Item: Coded Data:Medium Designator
+
+110	NR	CODED DATA FIELD:  CONTINUING RESOURCES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Continuing Resource Coded Data
+
+115	R	CODED DATA FIELD: VISUAL PROJECTIONS, VIDEO RECORDINGS AND MOTION PICTURES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ab	Valid subfields
+9	NR	Local Subfield
+a	NR	 Coded Data
+b	NR	Motion Picture Coded Data Archival
+
+116	R	CODED DATA FIELD: GRAPHICS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Coded Data for Graphics
+
+117	R	CODED DATA FIELD: THREE-DIMENSIONAL ARTEFACTS AND REALIA
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Coded Data for Three-Dimensional Artefacts and Realia
+
+120	NR	CODED DATA FIELD: CARTOGRAPHIC MATERIALS – GENERAL
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Cartographic Material Coded Data (General)
+
+121	NR	CODED DATA FIELD: CARTOGRAPHIC MATERIALS - PHYSICAL ATTRIBUTES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ab	Valid subfields
+9	NR	Local Subfield
+a	NR	Cartographic Material Coded Data: Physical attributes (General)
+b	NR	Aerial Photography and Remote Sensing Coded Data: Physical Attributes
+
+122	R	CODED DATA FIELD: TIME PERIOD OF RESOURCE CONTENT
+ind1	012	Number of Dates Indicator
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	R	Time period, 9999 B.C. to present
+
+123	R	CODED DATA FIELD: CARTOGRAPHIC RESOURCES - SCALE AND CO-ORDINATES
+ind1	01234	Type of Scale Code Indicator
+ind2	blank	Undefined
+subfield	9abcdefghijkmnop	Valid subfields
+9	NR	Local Subfield
+a	NR	Type of Scale
+b	R	Constant Ratio Linear Horizontal Scale
+c	R	Constant Ratio Linear Vertical Scale
+d	NR	Co-ordinates – Westernmost Longitude
+e	NR	Co-ordinates – Easternmost Longitude
+f	NR	Co-ordinates – Northernmost Latitude
+g	NR	Co-ordinates – Southernmost Latitude
+h	R	Angular Scale
+i	NR	Declination – Northern Limit
+j	NR	Declination – Southern Limit
+k	NR	Right ascension – Eastern Limits
+m	NR	Right ascension – Western Limits
+n	NR	Equinox
+o	NR	Epoch
+p	NR	Planet to which the field applies
+
+124	NR	CODED DATA FIELD: CARTOGRAPHIC MATERIALS - SPECIFIC MATERIAL DESIGNATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcdefg	Valid subfields
+9	NR	Local Subfield
+a	NR	Character of Image
+b	R	Form of Cartographic Item
+c	R	Presentation Technique for Photographic or Non-Photographic Image
+d	R	Position of Platform for Photographic or Remote Sensing Image
+e	R	Category of Satellite for Remote Sensing Image
+f	R	Name of Satellite for Remote Sensing Image
+g	R	Recording Technique for Remote Sensing Image
+
+125	NR	CODED DATA FIELD: SOUND RECORDINGS AND MUSIC
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abc	Valid subfields
+9	NR	Local Subfield
+a	NR	Format of Notated Music
+b	NR	Literary Text Indicator (Non-Music Performance)
+c	NR	Multiple Musical Formats
+
+126	NR	CODED DATA FIELD: SOUND RECORDINGS - PHYSICAL ATTRIBUTES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ab	Valid subfields
+9	NR	Local Subfield
+a	NR	Sound Recording Coded Data (General)
+b	NR	Sound Recording Coded Data (Detail)
+
+127	NR	CODED DATA FIELD: DURATION OF SOUND RECORDINGS AND NOTATED MUSIC
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	R	Duration
+
+128	R	CODED DATA FIELD: FORM OF MUSICAL WORK AND KEY OR MODE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcd	Valid subfields
+9	NR	Local Subfield
+a	R	Form of Musical Work
+b	R	Instruments or Voices for Ensemble
+c	R	Instruments or Voices for Soloists
+d	NR	Key or Mode of Musical Work
+
+130	R	CODED DATA FIELD: MICROFORMS – PHYSICAL ATTRIBUTES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	R	Microform Coded Data – Physical Attributes
+
+131	NR	CODED DATA FIELD: CARTOGRAPHIC MATERIALS - GEODETIC, GRID AND VERTICAL MEASUREMENT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcdefghijkl	Valid subfields
+9	NR	Local Subfield
+a	R	Spheroid
+b	R	Horizontal Datum
+c	R	Grid and Referencing System
+d	R	Overlapping and Referencing System
+e	R	Secondary Grid and Referencing System
+f	R	Vertical Datum
+g	R	Unit of Measurement of Heighting
+h	R	Contour Interval
+i	NR	Supplementary Contour Interval
+j	R	Unit of Measurement of Bathymetry
+k	NR	Bathymetric Interval
+l	NR	Supplementary Bathymetric Interval
+
+135	R	CODED DATA FIELD: ELECTRONIC RESOURCES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Coded Data for Electronic Resources
+
+140	NR	CODED DATA FIELD: ANTIQUARIAN – GENERAL
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Antiquarian Coded Data – General
+
+141	R	CODED DATA FIELD - COPY SPECIFIC ATTRIBUTES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	59abcdef	Valid subfields
+5	NR	Institution and Copy to which the Field Applies
+9	NR	Local Subfield
+a	NR	Coded data – Copy specific attributes
+b	NR	Binding specific characteristics
+c	NR	Age
+d	NR	Binding State of Preservation Code – specific
+e	NR	Body of the Book specific characteristics
+f	NR	Body of the Book State of Preservation Code – specific
+
+146	NR	CODED DATA FIELD: MEDIUM OF PERFORMANCE
+ind1	01	Original or Arrangement Indicator
+ind2	1	Alternative Medium of Performance Indicator
+subfield	9abcdefhi	Valid subfields
+9	NR	Local Subfield
+a	NR	Type of Performance Medium
+b	R	 Instrument or Voice Soloist
+c	R	Instrument or Voice Non-soloist, Conductor, Other Performer or Device, Not Included in an Ensemble Recorded in Subfield $d
+d	R	 Vocal or Instrumental Ensemble
+e	R	Instrument or Voice Non-soloist, Conductor, Other Performer or Device, Included in an Ensemble Recorded in Preceding Subfield $d
+f	R	Specific Instrument Related to the Generic one Recorded in Preceding Subfield $c or $e
+h	R	 Number of Parts
+i	R	Number of Players
+
+181	NR	CODED DATA FIELD: CONTENT FORM
+ind1	blank	Undefined
+ind2	12	ISBD display indicator
+subfield	269abc	Valid subfields
+2	NR	System code
+6	R	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	ISBD Content form Code
+b	R	ISBD Content Qualification Code
+c	R	Other Coding for Content Form
+
+182	NR	CODED DATA FIELD: MEDIA TYPE
+ind1	blank	Undefined
+ind2	12	ISBD display indicator
+subfield	269ac	Valid subfields
+2	NR	System code
+6	R	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	ISBD Media Type Code
+c	R	Other Coding for Media Type
+
+183	NR	CODED DATA FIELD: TYPE OF CARRIER
+ind1	blank	Undefined
+ind2	12	Display Indicator
+subfield	2689a	Valid subfields
+2	NR	System code
+6	R	Interfield Linking Data
+8	R	Materials specified
+9	NR	Local Subfield
+a	R	Type of Carrier Code
+
+200	NR	TITLE AND STATEMENT OF RESPONSIBILITY
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	259abcdefghijkrvz	Valid subfields
+2	NR	Source
+5	NR	Institution to Which Field Applies
+9	NR	Local Subfield
+a	R	Title Proper
+b	R	General Material Designation
+c	R	Title Proper by Another Author
+d	R	Parallel Title Proper
+e	R	Other Title Information
+f	R	First Statement of Responsibility
+g	R	Subsequent Statement of Responsibility
+h	R	Number of a Part
+i	R	Name of a Part
+j	NR	Inclusive dates
+k	NR	Bulk dates
+r	NR	Title page information following the title proper (for older monographic publications)
+v	NR	Volume Designation
+z	R	Language of Parallel Title Proper
+
+203	NR	CODED DATA FIELD: CONTENT FORM
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abc	Valid subfields
+9	NR	Local Subfield
+a	R	Content form
+b	R	Content qualification
+c	NR	Media type
+
+205	R	EDITION STATEMENT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abdfg	Valid subfields
+9	NR	Local Subfield
+a	NR	Edition Statement
+b	R	Issue Statement
+d	R	Parallel Edition Statement
+f	R	Statement of Responsibility Relating to Edition
+g	R	Subsequent Statement of Responsibility
+
+206	NR	MATERIAL SPECIFIC AREA: CARTOGRAPHIC RESOURCES - MATHEMATICAL DATA
+ind1	0	Formatting Indicator
+ind2	blank	Undefined
+subfield	9abcdef	Valid subfields
+9	NR	Local Subfield
+a	NR	Mathematical Data Statement
+b	R	Statement of scale
+c	NR	Statement of projection
+d	NR	Statement of coordinates
+e	NR	Right ascension and declination
+f	NR	Statement of equinox
+
+207	NR	MATERIAL SPECIFIC AREA: NUMBERING OF CONTINUING RESOURCES
+ind1	blank	Undefined
+ind2	012	Formatted Numbering Indicator
+subfield	9az	Valid subfields
+9	NR	Local Subfield
+a	R	Numbering: Dates and Volume Designations
+z	R	Source of Numbering Information
+
+208	NR	MATERIAL SPECIFIC AREA: PRINTED MUSIC SPECIFIC STATEMENT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ad	Valid subfields
+9	NR	Local Subfield
+a	NR	Printed Music Specific Statement
+d	R	Parallel Printed Music Specific Statement(s)
+
+210	R	PUBLICATION, DISTRIBUTION, ETC.
+ind1	01	Sequence of publication data
+ind2	1	Intervening publisher
+subfield	9abcdefghrs	Valid subfields
+9	NR	Local Subfield
+a	R	Place of Publication, Distribution, etc.
+b	R	Address of Publisher, Distributor, etc.
+c	R	Name of Publisher, Distributor, etc.
+d	R	Date of Publication, Distribution, etc.
+e	R	Place of Manufacture
+f	R	Address of Manufacturer
+g	R	Name of Manufacturer
+h	R	Date of Manufacture
+r	NR	Printing and/or publishing information transcribed as found in the main source of information
+s	NR	Printing and/or publishing information transcribed as found in the colophon
+
+211	NR	PROJECTED PUBLICATION DATE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Date
+
+215	R	PHYSICAL DESCRIPTION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcde	Valid subfields
+9	NR	Local Subfield
+a	R	Specific Material Designation and Extent of Item
+b	NR	Materials and Technique display
+c	NR	Other Physical Details
+d	R	Dimensions
+e	R	Accompanying Material
+
+225	R	SERIES
+ind1	012	Form of Title Indicator
+ind2	blank	Undefined
+subfield	29adefhivxz	Valid subfields
+2	NR	Source
+9	NR	Local Subfield
+a	NR	Series Title
+d	R	Parallel Series Title
+e	R	Other Title Information
+f	R	Statement of Responsibility
+h	R	Number of a Part
+i	R	Name of a Part
+v	R	Volume Designation
+x	R	ISSN of Series
+z	R	Language of Parallel Title
+
+230	R	MATERIAL SPECIFIC AREA: ELECTRONIC RESOURCE CHARACTERISTICS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Designation and extent of file
+
+231	NR	DIGITAL FILE CHARACTERISTICS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	269abcdefgh	Valid subfields
+2	NR	Source
+6	R	Interfield linking data
+9	NR	Local Subfield
+a	R	File type
+b	R	Encoding standard
+c	R	Version of encoding standard
+d	R	Details of encoding standard
+e	R	File size
+f	R	Resolution
+g	R	Regional encoding
+h	R	Encoded bitrate
+
+251	NR	ORGANIZATION AND ARRANGEMENT OF MATERIALS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abc	Valid subfields
+9	NR	Local Subfield
+a	R	Organization
+b	R	Arrangement
+c	NR	Level
+
+283	NR	CARRIER TYPE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	269a	Valid subfields
+2	NR	System code  Source
+6	R	Interfield Linking Data
+9	NR	Local Subfield
+a	R	Carrier Type Designation
+
+300	R	GENERAL NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+301	R	NOTES PERTAINING TO IDENTIFICATION NUMBERS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+302	R	NOTES PERTAINING TO CODED INFORMATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+303	R	GENERAL NOTES PERTAINING TO DESCRIPTIVE INFORMATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+304	R	NOTES PERTAINING TO TITLE AND STATEMENT OF RESPONSIBILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+305	R	NOTES PERTAINING TO EDITION AND BIBLIOGRAPHIC HISTORY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+306	R	NOTES PERTAINING TO PUBLICATION, DISTRIBUTION, ETC.
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+307	R	NOTES PERTAINING TO PHYSICAL DESCRIPTION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+308	R	NOTES PERTAINING TO SERIES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+310	R	NOTES PERTAINING TO BINDING AND AVAILABILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+311	R	NOTES PERTAINING TO LINKING FIELDS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+312	R	NOTES PERTAINING TO RELATED TITLES
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+313	R	NOTES PERTAINING TO SUBJECT ACCESS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+314	R	NOTES PERTAINING TO INTELLECTUAL RESPONSIBILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+315	R	NOTES PERTAINING TO MATERIAL (OR TYPE OF PUBLICATION) SPECIFIC INFORMATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+316	R	NOTE RELATING TO THE COPY IN HAND
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	569au	Valid subfields
+5	NR	Institution to which the Field Applies
+6	R	Interfield Linking Data
+9	NR	Local Subfield
+a	R	Text of Note
+u	R	Uniform Resource Identifier (URI)
+
+317	R	PROVENANCE NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	5689au	Valid subfields
+5	NR	Institution and copy to which the field applies
+6	R	Interfield Linking Data
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Text of Note
+u	R	Uniform Resource Identifier (URI)
+
+318	R	ACTION NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	59abcdefhijklnopru	Valid subfields
+5	NR	Institution and copy to which the Field Applies
+9	NR	Local Subfield
+a	NR	Action
+b	R	Action Identification
+c	R	Time of Action
+d	R	Action Interval
+e	R	Contingency for Action
+f	R	Authorisation
+h	R	Jurisdiction
+i	R	Method of Action
+j	R	Site of Action
+k	R	Action Agent
+l	R	Status
+n	R	Extent
+o	R	Type of Unit
+p	R	Non-public Note
+r	R	Public Note
+u	R	Uniform Resource Identifier (URI)
+
+320	R	INTERNAL BIBLIOGRAPHIES/INDEXES NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9au	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+u	R	Uniform Resource Identifier (URI)
+
+321	R	EXTERNAL INDEXES/ABSTRACTS/REFERENCES NOTE
+ind1	01	Type of Coverage
+ind2	blank	Undefined
+subfield	569abcux	Valid subfields
+5	NR	Institution to which Field Applies
+6	NR	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	Name of source
+b	NR	Dates of coverage
+c	NR	Location within source
+u	NR	Uniform Resource Identifier (URI)
+x	NR	International Standard Number
+
+322	NR	CREDITS NOTE (PROJECTED AND VIDEO MATERIAL AND SOUND RECORDINGS)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+323	R	CAST NOTE (PROJECTED AND VIDEO MATERIAL AND SOUND RECORDINGS)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+324	NR	ORIGINAL VERSION NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+325	R	REPRODUCTION NOTE
+ind1	1	Undefined
+ind2	blank	Undefined
+subfield	9abcdefghijnuvxyz	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Unstructured Note
+b	NR	Type of reproduction
+c	R	Place of reproduction
+d	R	Agency Responsible for the Reproduction
+e	NR	Date of publication for the reproduction
+f	NR	Physical description of the reproduction
+g	NR	Series statement for the reproduction
+h	NR	Completeness of the reproduction code
+i	NR	Coverage of the reproduction
+j	R	Terms of access to the reproduction
+n	R	Note About Reproduction
+u	NR	URL of the reproduction
+v	NR	Date of consultation
+x	R	ISSN of the reproduction
+y	R	ISBN of the reproduction
+z	NR	Date when the URL in $u was found to be invalid
+
+326	R	FREQUENCY STATEMENT NOTE (CONTINUING RESOURCES)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ab	Valid subfields
+9	NR	Local Subfield
+a	NR	Frequency
+b	NR	Dates of Frequency
+
+327	R	CONTENTS NOTE
+ind1	01	Completeness indicator
+ind2	1	Structure indicator
+subfield	9abcdefghipuz	Valid subfields
+9	NR	Local Subfield
+a	R	Text of Note
+b	R	Title of level 1 subdivision
+c	R	Title of level 2 subdivision
+d	R	Title of level 3 subdivision
+e	R	Title of level 4 subdivision
+f	R	Title of level 5 subdivision
+g	R	Title of level 6 subdivision
+h	R	Title of level 7 subdivision
+i	R	Title of level 8 subdivision
+p	R	Sequence of pages or first pages of a subdivision
+u	R	Uniform Resource Identifier (URI)
+z	R	Other information concerning a subdivision
+
+328	R	DISSERTATION (THESIS) NOTE
+ind1	blank	Undefined
+ind2	01	Structure indicator
+subfield	9abcdetz	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of note
+b	NR	Dissertation or thesis details and type of degree
+c	NR	Discipline of degree
+d	NR	Date of degree
+e	NR	Body granting the degree
+t	NR	Title of other edition of dissertation or thesis
+z	R	Text preceding or following the note
+
+330	R	SUMMARY OR ABSTRACT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+332	R	PREFERRED CITATION OF DESCRIBED MATERIALS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+333	R	USERS/INTENDED AUDIENCE NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+334	R	AWARDS NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcdu	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of awards note
+b	NR	Name of award
+c	NR	Year of award
+d	NR	Country of award
+u	R	Uniform Resource Identifier (URI)
+
+335	NR	LOCATION OF ORIGINALS/REPRODUCTIONS
+ind1	01	Role of holding institution
+ind2	blank	Undefined
+subfield	89abcgu	Valid subfields
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Identification of the Holder
+b	R	Address
+c	R	Country
+g	R	Control number
+u	R	Uniform Resource Identifier (URI)
+
+336	R	TYPE OF ELECTRONIC RESOURCE NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+
+337	R	SYSTEM REQUIREMENTS NOTE (ELECTRONIC RESOURCES)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9au	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Note
+u	R	Uniform Resource Identifier (URI)
+
+338	NR	FUNDING INFORMATION NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abcdefg	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of Unstructured Note
+b	R	Funding Organization
+c	R	Program
+d	NR	Project Number
+e	R	Jurisdiction
+f	NR	Project Name
+g	NR	Project Acronym
+
+345	NR	ACQUISITION INFORMATION NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9ad	Valid subfields
+9	NR	Local Subfield
+a	R	Source for Acquisition/Subscription Address
+d	R	Stock Number
+
+371	NR	NOTES ON INFORMATION SERVICE POLICY
+ind1	01	 Type of Note
+ind2	blank	Undefined
+subfield	89abcd	Valid subfields
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Terms governing access, use and reproduction
+b	NR	Jurisdiction
+c	NR	Authorization
+d	NR	Authorized users
+
+410	R	SERIES
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+411	NR	SUBSERIES
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+412	NR	SOURCE OF EXCERPT OR OFFPRINT
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+413	NR	EXCERPT OR OFFPRINT
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+421	NR	SUPPLEMENT
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+422	NR	PARENT OF SUPPLEMENT
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+423	R	ISSUED WITH
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+424	NR	IS UPDATED BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+425	NR	UPDATES
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+430	NR	CONTINUES
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+431	NR	CONTINUES IN PART
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+432	NR	SUPERSEDES
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+433	NR	SUPERSEDES IN PART
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+434	NR	ABSORBED
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+435	NR	ABSORBED IN PART
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+436	NR	FORMED BY MERGER OF
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+437	NR	SEPARATED FROM
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+440	NR	CONTINUED BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+441	NR	CONTINUED IN PART BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+442	NR	SUPERSEDED BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+443	NR	SUPERSEDED IN PART BY
+ind1	blank	Undefined
+ind2	012	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+444	NR	ABSORBED BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+445	NR	ABSORBED IN PART BY
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+446	NR	SPLIT INTO
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+447	NR	MERGED WITH XXX TO FORM
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+448	NR	CHANGED BACK TO
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+451	NR	OTHER EDITION IN THE SAME MEDIUM
+ind1	blank	Undefined
+ind2	012	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+452	NR	OTHER EDITION IN ANOTHER MEDIUM
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+453	NR	TRANSLATED AS
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+454	NR	TRANSLATION OF
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+455	NR	REPRODUCTION OF
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+456	NR	REPRODUCED AS
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+461	NR	SET LEVEL
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+462	NR	SUBSET LEVEL
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+463	NR	PIECE LEVEL
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+464	NR	PIECE-ANALYTIC LEVEL
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+470	NR	ITEM REVIEWED
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+481	NR	ALSO BOUND WITH THIS VOLUME
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+482	NR	BOUND WITH
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+488	NR	OTHER RELATED WORKS
+ind1	blank	Undefined
+ind2	01	Note Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+500	R	UNIFORM TITLE
+ind1	01	 Title Significance Indicator
+ind2	01	Primary Entry Indicator
+subfield	239abhijklmnqrsuvwxyz	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Uniform Title
+b	R	General Material Designation
+h	R	Number of Section or Part
+i	NR	Name of Section or Part
+j	R	Form Subdivision
+k	NR	Date of Publication
+l	R	Form Subheading
+m	NR	Language (when part of a heading)
+n	R	Miscellaneous Information
+q	NR	Version (or Date of Version)
+r	R	Medium of Performance (for Music)
+s	R	Numeric Designation (for Music)
+u	NR	Key (for Music)
+v	NR	Volume Designation
+w	NR	Additional Elements (for Music)
+x	R	Topical Subdivision
+y	R	Geographical Subdivision
+z	R	Chronological Subdivision
+
+501	R	COLLECTIVE UNIFORM TITLE
+ind1	012	Type of Collective Title Indicator
+ind2	blank	Undefined
+subfield	239abejkmrsuwxyz	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Collective Uniform Title
+b	R	General Material Designation
+e	NR	Collective Uniform Subtitle
+j	R	Form Subdivision
+k	NR	Date of Publication, etc.
+m	NR	Medium of Performance (for Music)
+r	R	Numeric Designation (for Music)
+s	R	Key (for Music)
+u	NR	Volume Designation
+w	NR	Additional Elements (for Music)
+x	R	Topical Subdivision
+y	R	Geographical Subdivision
+z	R	Chronological Subdivision
+
+503	R	UNIFORM CONVENTIONAL HEADING
+ind1	01	Title significance indicator
+ind2	blank	Undefined
+subfield	9abdefghijklmno	Valid subfields
+9	NR	Local Subfield
+a	NR	Form Heading Proper
+b	NR	Form Subheading
+d	R	Month and Day
+e	NR	Personal name – Entry element of person
+f	NR	Personal name – Part of name other than entry element – Forename
+g	NR	Personal names – Dates
+h	NR	Personal Name Qualifier
+i	NR	Title of Part
+j	R	Year
+k	NR	Numeration (Arabic)
+l	NR	Numeration (Roman)
+m	NR	Locality
+n	NR	Institution in Locality
+o	NR	Place in Locality
+
+507	NR	PREFERRED ACCESS POINT – IDENTIFICATION OF AN EXPRESSION (PROVISIONAL)
+ind1	01	Primary Entry Indicator
+ind2	blank	Undefined
+subfield	39acdefhiklmnorsuvw	Valid subfields
+3	NR	Authority Entry Record Number
+9	NR	Local Subfield
+a	NR	Title [Work
+c	NR	Form of work [Work]
+d	NR	Date of work [Work]
+e	NR	Place of origin of work [Work]
+f	NR	Original language of the work [Work]
+h	R	Number of section or part [Work]
+i	R	Name of section or part [Work]
+k	R	Other distinguishing characteristics of a work [Work]
+l	NR	Form of the expression [Expression]
+m	NR	Language of the expression [Expression]
+n	NR	Content type [Expression]
+o	NR	Date of expression [Expression]
+r	R	Medium of performance (for music) [Work]
+s	R	Numeric designation (for music) [Work]
+u	NR	Key (for music) [Work]
+v	R	Medium of performance (for music) [Expression]
+w	R	Other characteristics of expression [Expression]
+
+510	R	PARALLEL TITLE PROPER
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	29aehijnz	Valid subfields
+2	NR	Source
+9	NR	Local Subfield
+a	NR	Parallel Title
+e	R	Other Title Information
+h	R	Number of Part
+i	R	Name of Part
+j	NR	Volume or Dates associated with Title
+n	NR	Miscellaneous Information
+z	NR	Language of Title
+
+511	R	HALF TITLE
+ind1	01	Significance of title
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Half title
+
+512	R	COVER TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9ae	Valid subfields
+9	NR	Local Subfield
+a	NR	Cover Title
+e	R	Other Title Information
+
+513	R	ADDED TITLE-PAGE TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9aehi	Valid subfields
+9	NR	Local Subfield
+a	NR	Added Title-page Title
+e	R	Other Title Information
+h	R	Number of Part
+i	R	Name of Part
+
+514	R	CAPTION TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9ae	Valid subfields
+9	NR	Local Subfield
+a	NR	Caption Title
+e	R	Other Title Information
+
+515	R	RUNNING TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Running Title
+
+516	R	SPINE TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9ae	Valid subfields
+9	NR	Local Subfield
+a	NR	Spine Title
+e	R	Other Title Information
+
+517	R	OTHER VARIANT TITLES
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9ae	Valid subfields
+9	NR	Local Subfield
+a	NR	Variant Title
+e	R	Other Title Information
+
+518	R	TITLE IN STANDARD MODERN SPELLING
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Title proper, variant title or uniform title in standard modern spelling
+
+520	R	FORMER TITLE (CONTINUING RESOURCES)
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9aehijnx	Valid subfields
+9	NR	Local Subfield
+a	NR	Former Title Proper
+e	R	Other Title Information
+h	NR	Number of Part
+i	NR	Name of Part
+j	NR	Volumes or Dates of Former Title
+n	NR	Miscellaneous Information
+x	NR	ISSN of Former Title
+
+530	R	KEY-TITLE
+ind1	01	Title Proper Indicator
+ind2	blank	Undefined
+subfield	9abjv	Valid subfields
+9	NR	Local Subfield
+a	NR	Key Title
+b	NR	Qualifier
+j	NR	Volume or Dates Associated with Key Title
+v	NR	Volume Designation
+
+531	R	ABBREVIATED TITLE (CONTINUING RESOURCES)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9abv	Valid subfields
+9	NR	Local Subfield
+a	NR	Abbreviated Title
+b	NR	Qualifier
+v	NR	Volume Designation
+
+532	R	EXPANDED TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	29az	Valid subfields
+2	NR	Source
+9	NR	Local Subfield
+a	NR	Expanded Title
+z	NR	Language of Title
+
+540	R	ADDITIONAL TITLE SUPPLIED BY CATALOGUER
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9aehi	Valid subfields
+9	NR	Local Subfield
+a	NR	Additional Title
+e	R	Other Title Information
+h	NR	Number of Part
+i	NR	Name of Part
+
+541	R	TRANSLATED TITLE SUPPLIED BY CATALOGUER
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	29aehiz	Valid subfields
+2	NR	Source
+9	NR	Local Subfield
+a	NR	Translated Title
+e	NR	Other Title Information
+h	NR	Number of Part
+i	NR	Name of Part
+z	NR	Language of Title
+
+545	R	SECTION TITLE
+ind1	01	Title Significance Indicator
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Section Title
+
+560	R	ARTIFICIAL TITLE
+ind1	01	Significance of title
+ind2	blank	Undefined
+subfield	59ae	Valid subfields
+5	NR	Institution to which the Field Applies
+9	NR	Local Subfield
+a	NR	Artificial title
+e	R	Other Title Information
+
+576	NR	NAME / PREFERRED ACCESS POINT – IDENTIFICATION OF A WORK
+ind1	01	Primary Entry Indicator
+ind2	01	Structure Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+577	NR	NAME / PREFERRED ACCESS POINT – IDENTIFICATION OF AN EXPRESSION (PROVISIONAL)
+ind1	01	Primary Entry Indicator
+ind2	01	Structure Indicator
+subfield	19	Valid subfields
+1	R	Linking Data
+9	NR	Local Subfield
+
+600	R	PERSONAL NAME USED AS SUBJECT
+ind1	blank	Undefined
+ind2	01	Form of Name Indicator
+subfield	239abcdfgjptxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+b	NR	Part of Name Other than Entry Element
+c	R	Additions to Name Other than Dates
+d	NR	Roman Numera
+f	NR	Dates
+g	NR	Expansion of Initials of Forename
+j	R	Form Subdivision
+p	NR	Affiliation/address
+t	NR	Title
+x	R	Topical Subdivision
+y	R	Geographical Subdivision
+z	R	Chronological Subdivision
+
+601	R	CORPORATE BODY NAME USED AS SUBJECT
+ind1	01	Meeting Indicator
+ind2	02	Form of Name Indicator
+subfield	239abcdefghjxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision (or name if entered under place)
+c	R	Addition to Name or Qualifier
+d	NR	Number of Meeting and/or Number of Part of a Meeting
+e	NR	Location of Meeting
+f	NR	Date of Meeting
+g	NR	Inverted Element
+h	NR	Part of Name other than Entry Element and Inverted Element
+j	R	Form Subdivision
+x	R	Topical Subdivision
+y	R	Geographical Subdivision
+z	R	Chronological Subdivision
+
+602	R	FAMILY NAME USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239afjxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+f	NR	Dates
+j	R	Form Subdivision
+x	R	Topical Subdivision
+y	R	Geographical Subdivision
+z	R	Chronological Subdivision
+
+604	R	NAME AND TITLE USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	19	Valid subfields
+1	NR	 Linking data
+9	NR	Local Subfield
+
+605	R	TITLE USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239ahijklmnqrsuwxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+h	R	Number of Section or Part
+i	R	Name of Section or Part
+j	R	Form subdivision
+k	NR	Date of Publication
+l	NR	Form Subheading
+m	NR	Language (when part of heading)
+n	R	Miscellaneous Information
+q	NR	Version (or Date of Version)
+r	R	Medium of Performance (for Music)
+s	R	Numeric Designation (for Music)
+u	NR	Key (for Music)
+w	NR	Arranged Statement (for Music)
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+606	R	TOPICAL NAME USED AS SUBJECT
+ind1	02	Level of the Subject Item
+ind2	blank	Undefined
+subfield	239ajxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+j	R	Form subdivision
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+607	R	GEOGRAPHICAL NAME USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239ajxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+j	R	Form subdivision
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+608	R	FORM, GENRE OR PHYSICAL CHARACTERISTICS HEADING
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	2359ajxyz	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+5	NR	Institution to which the Field Applies
+9	NR	Local Subfield
+a	NR	Entry Element
+j	R	Form subdivision
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+610	R	UNCONTROLLED SUBJECT TERMS
+ind1	012	Level of the Subject Term
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	R	Subject Term
+
+615	R	SUBJECT CATEGORY (PROVISIONAL)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239amnx	Valid subfields
+2	NR	System Code
+3	R	Authority Record Number
+9	NR	Local Subfield
+a	NR	Subject Category Entry Element Text 
+m	R	Subject Category Subdivision Code
+n	R	Subject Category Code
+x	R	Subject Category Subdivision Text
+
+616	R	TRADEMARK USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239acfjxyz	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry element
+c	R	Qualification
+f	NR	Dates
+j	R	Form subdivision
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+617	NR	HIERARCHICAL GEOGRAPHICAL NAME USED AS SUBJECT
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239abcdefghikmno	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	R	Country (Nation State)
+b	NR	First-order political jurisdiction below a country
+c	R	Intermediate Political Jurisdiction
+d	NR	City, etc.
+e	R	Venue
+f	R	Date
+g	NR	Season
+h	NR	Occasion
+i	NR	Final date
+k	R	Subsection of City, etc.
+m	R	Other Geographical Regions or Features
+n	R	Extraterrestrial Areas
+o	R	Geographical areas such as world, hemisphere, continent: larger area than country
+
+620	R	PLACE AND DATE OF PUBLICATION, PERFORMANCE, ETC
+ind1	012345	Type of data
+ind2	012	Presence of data on source
+subfield	239abcdefghikmno	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Country (Nation State)
+b	NR	First-order political jurisdiction below a country
+c	R	Intermediate Political Jurisdiction
+d	NR	City, etc.
+e	R	Venue
+f	R	Date
+g	NR	Season
+h	NR	Occasion
+i	NR	Final date
+k	R	Subsection of City, etc.
+m	R	Other Geographical Regions or Features
+n	R	Extraterrestrial Areas
+o	R	Geographical areas such as world, hemisphere, continent: larger area than country
+
+621	NR	PLACE AND DATE OF PROVENANCE
+ind1	012345	Type of data
+ind2	01	Presence of data on source
+subfield	23569abcdefghikmno	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+5	NR	Institution to which the field applies
+6	R	Interfield Linking Data
+9	NR	Local Subfield
+a	NR	Country (Nation State)
+b	NR	First-order political jurisdiction below a country
+c	R	Intermediate Political Jurisdiction
+d	R	City, etc.
+e	NR	Venue
+f	NR	Date
+g	NR	Season
+h	NR	Occasion
+i	NR	Final date
+k	R	Subsection of City, etc.
+m	R	Other Geographical Regions or Features
+n	R	Extraterrestrial Areas
+o	R	Geographical areas such as world, hemisphere, continent: larger area than country
+
+623	NR	CHARACTER
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	369abc	Valid subfields
+3	NR	 Authority Record Number
+6	R	Interfield linking data
+9	NR	Local Subfield
+a	NR	Entry element
+b	NR	Part of name other than entry element
+c	R	Additions to name of the character
+
+631	NR	OCCUPATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	2389abjxyz	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Occupation
+b	R	Form
+j	R	Form subdivision
+x	R	Topical subdivision
+y	R	Geographical subdivision
+z	R	Chronological subdivision
+
+632	NR	FUNCTION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	2389ajyz	Valid subfields
+2	NR	System Code
+3	NR	Authority Record Number
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Function
+j	R	Form subdivision
+y	R	Topical subdivision
+z	R	Geographical subdivision
+
+660	R	GEOGRAPHIC AREA CODE (GAC)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Code
+
+661	R	TIME PERIOD CODE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Time Period Code
+
+670	R	PRECIS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9bcez	Valid subfields
+9	NR	Local Subfield
+b	NR	Indicator Number (SIN)
+c	NR	String
+e	R	Reference Indication Number (RIN)
+z	NR	Language of Terms
+
+675	R	UNIVERSAL DECIMAL CLASSIFICATION (UDC)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	39avz	Valid subfields
+3	NR	Classification Record Number
+9	NR	Local Subfield
+a	NR	Number
+v	NR	Edition
+z	NR	Language of edition
+
+676	R	DEWEY DECIMAL CLASSIFICATION (DDC)
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	39avz	Valid subfields
+3	NR	Classification Record Number
+9	NR	Local Subfield
+a	NR	Number
+v	NR	Edition
+z	NR	Language of edition
+
+680	R	LIBRARY OF CONGRESS CLASSIFICATION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	39ab	Valid subfields
+3	NR	Classification Record Number
+9	NR	Local Subfield
+a	NR	Class number
+b	NR	Book number
+
+686	R	OTHER CLASS NUMBERS
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	239abcv	Valid subfields
+2	NR	System Code
+3	NR	Classification Record Number
+9	NR	Local Subfield
+a	R	Class number
+b	R	Book Number
+c	R	Classification Subdivision
+v	NR	Edition
+
+700	NR	PERSONAL NAME – PRIMARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	01	Form of Name Indicator
+subfield	3489abcdfgkop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	NR	Part of Name Other than Entry Element
+c	R	Additions to Names Other than Dates
+d	NR	Roman Numerals
+f	NR	Dates
+g	NR	Expansion of Initials of Forename
+k	R	Attribution qualifier
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+701	R	PERSONAL NAME – ALTERNATIVE RESPONSIBILITY
+ind1	blank	Undefined
+ind2	01	Form of Name Indicator
+subfield	3489abcdfgkop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	NR	Part of Name Other than Entry Element
+c	R	Additions to Names Other than Dates
+d	NR	Roman Numerals
+f	NR	Dates
+g	NR	Expansion of Initials of Forename
+k	R	Attribution qualifier
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+702	R	PERSONAL NAME – SECONDARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	01	Form of Name Indicator
+subfield	34589abcdfgkop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	NR	Part of Name Other than Entry Element
+c	R	Additions to Names Other than Dates
+d	NR	Roman Numerals
+f	NR	Dates
+g	NR	Expansion of Initials of Forename
+k	R	Attribution qualifier
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+703	NR	PERSONAL NAME – PROVENANCE OR OWNERSHIP
+ind1	blank	Undefined
+ind2	01	Form of Name Indicator
+subfield	34589abcdfgkop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	NR	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	NR	Part of Name Other than Entry Element
+c	R	Additions to Names Other than Dates
+d	NR	Roman Numerals
+f	NR	Dates
+g	NR	Expansion of Initials of Forename
+k	R	Attribution qualifier
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+710	NR	CORPORATE BODY NAME – PRIMARY RESPONSIBILITY
+ind1	01	specifies the kind of name of a body
+ind2	01	Form of Name Indicator
+subfield	3489abcdefghop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+d	NR	Number of Meeting and/or Number of Part of Meeting
+e	NR	Location of Meeting
+f	NR	Date of Meeting
+g	NR	Inverted Element
+h	NR	Part of Name Other than Entry Element and Inverted Element
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+711	R	CORPORATE BODY NAME – ALTERNATIVE RESPONSIBILITY
+ind1	01	specifies the kind of name of a body
+ind2	01	Form of Name Indicator
+subfield	3489abcdefghop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+d	NR	Number of Meeting and/or Number of Part of Meeting
+e	NR	Location of Meeting
+f	NR	Date of Meeting
+g	NR	Inverted Element
+h	NR	Part of Name Other than Entry Element and Inverted Element
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+712	R	CORPORATE BODY NAME – SECONDARY RESPONSIBILITY
+ind1	01	specifies the kind of name of a body
+ind2	01	Form of Name Indicator
+subfield	34589abcdefghop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+d	NR	Number of Meeting and/or Number of Part of Meeting
+e	NR	Location of Meeting
+f	NR	Date of Meeting
+g	NR	Inverted Element
+h	NR	Part of Name Other than Entry Element and Inverted Element
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+713	NR	CORPORATE BODY NAME – PROVENANCE OR OWNERSHIP
+ind1	01	specifies the kind of name of a body
+ind2	01	Form of Name Indicator
+subfield	34589abcdefghop	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+d	NR	Number of Meeting and/or Number of Part of Meeting
+e	NR	Location of Meeting
+f	NR	Date of Meeting
+g	NR	Inverted Element
+h	NR	Part of Name Other than Entry Element and Inverted Element
+o	R	International standard identifier for the name
+p	NR	Affiliation/address
+
+716	R	TRADEMARK
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	39acf	Valid subfields
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Data element
+c	R	Qualification
+f	NR	Dates
+
+720	NR	FAMILY NAME – PRIMARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	3489acdfo	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+c	NR	Type of family
+d	R	Places associated with the family
+f	NR	Dates
+o	R	International standard identifier for the name
+
+721	R	FAMILY NAME – ALTERNATIVE RESPONSIBILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	3489acdfo	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+c	NR	Type of family
+d	R	Places associated with the family
+f	NR	Dates
+o	R	International standard identifier for the name
+
+722	R	FAMILY NAME – SECONDARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	34589acdfo	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+c	NR	Type of family
+d	R	Places associated with the family
+f	NR	Dates
+o	R	International standard identifier for the name
+
+723	NR	FAMILY NAME – PROVENANCE OR OWNERSHIP
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	34589acdfo	Valid subfields
+3	NR	Authority Record Number
+4	R	Relator Code
+5	NR	Institution to which the Field Applies
+8	R	Materials specified
+9	NR	Local Subfield
+a	NR	Entry Element
+c	NR	Type of family
+d	R	Places associated with the family
+f	NR	Dates
+o	R	International standard identifier for the name
+
+730	R	NAME - ENTITY RESPONSIBLE
+ind1	012	Form of Name Indicator
+ind2	blank	Undefined
+subfield	49a	Valid subfields
+4	R	Relator Code
+9	NR	Local Subfield
+a	NR	Entry Element
+
+740	NR	UNIFORM CONVENTIONAL HEADING FOR LEGAL AND RELIGIOUS TEXTS – PRIMARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	1234	Form of Name Indicator
+subfield	39abcefilnt	Valid subfields
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+e	NR	Name of the other party
+f	R	Date of legal issue or version, or date of signing
+i	R	Name of section or part
+l	R	Form subheading
+n	R	Miscellaneous information
+t	NR	Uniform title
+
+741	R	UNIFORM CONVENTIONAL HEADING FOR LEGAL AND RELIGIOUS TEXTS – ALTERNATIVE RESPONSIBILITY
+ind1	blank	Undefined
+ind2	1234	Form of Name Indicator
+subfield	39abcefilnt	Valid subfields
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+e	NR	Name of the other party
+f	R	Date of legal issue or version, or date of signing
+i	R	Name of section or part
+l	R	Form subheading
+n	R	Miscellaneous information
+t	NR	Uniform title
+
+742	R	UNIFORM CONVENTIONAL HEADING FOR LEGAL AND RELIGIOUS TEXTS – SECONDARY RESPONSIBILITY
+ind1	blank	Undefined
+ind2	1234	Form of Name Indicator
+subfield	39abcefilnt	Valid subfields
+3	NR	Authority Record Number
+9	NR	Local Subfield
+a	NR	Entry Element
+b	R	Subdivision
+c	R	Addition to Name or Qualifier
+e	NR	Name of the other party
+f	R	Date of legal issue or version, or date of signing
+i	R	Name of section or part
+l	R	Form subheading
+n	R	Miscellaneous information
+t	NR	Uniform title
+
+801	R	ORIGINATING SOURCE
+ind1	blank	Undefined
+ind2	0123	Function Indicator
+subfield	29abcgh	Valid subfields
+2	NR	System Code
+9	NR	Local Subfield
+a	NR	Country
+b	NR	Agency
+c	NR	Date of Transaction
+g	R	Cataloguing Rules (Descriptive Conventions)
+h	NR	Original Control Number
+
+802	NR	ISSN CENTRE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	ISSN Centre Code
+
+830	NR	GENERAL CATALOGUER’S NOTE
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	NR	Text of note
+
+850	NR	HOLDING INSTITUTION
+ind1	blank	Undefined
+ind2	blank	Undefined
+subfield	9a	Valid subfields
+9	NR	Local Subfield
+a	R	Code of institution
+
+852	NR	LOCATION AND CALL NUMBER
+ind1	012345	Shelving scheme
+ind2	012	Shelving order
+subfield	29abcdegjklmnptxy	Valid subfields
+2	R	System Code
+9	NR	Local Subfield
+a	NR	Institution Identifier
+b	R	Sub-Location Identifier
+c	NR	Address
+d	NR	Coded Location Qualifier
+e	NR	Non-coded Location Qualifier
+g	NR	Call Number Prefix
+j	NR	Call Number
+k	NR	Shelving Form of Title, Author, Author/Title
+l	NR	Call Number Suffix
+m	NR	Item Identifier
+n	NR	Copy Identifier
+p	NR	Country
+t	NR	Copy Number
+x	R	Non-public Note
+y	R	Public Note
+
+856	R	ELECTRONIC LOCATION AND ACCESS
+ind1	012347	Access Method
+ind2	blank	Undefined
+subfield	29abcdefhijklmnopqrstuvwxyz	Valid subfields
+2	R	Link text
+9	NR	Local Subfield
+a	R	Host name
+b	R	Access number
+c	R	Compression information
+d	R	Path
+e	NR	Date and Hour of Consultation and Access
+f	R	Electronic name
+h	NR	Processor of request
+i	R	Instruction
+j	NR	Bits per second
+k	NR	Password
+l	NR	Logon/login
+m	R	Contact for access assistance
+n	NR	Name of location of host in subfield $a
+o	NR	Operating system
+p	NR	Port
+q	R	Electronic Format Type
+r	NR	Settings
+s	R	File size
+t	R	Terminal emulation
+u	NR	Uniform Resource Identifier
+v	R	Hours access method available
+w	R	Record control number
+x	R	Non-public note
+y	NR	Access method
+z	R	Public note
+
+886	R	DATA NOT CONVERTED FROM SOURCE FORMAT
+ind1	012	Type of field
+ind2	blank	Undefined
+subfield	29abcdefghijklmnopqrstuvwxyz	Valid subfields
+2	NR	System Code
+9	NR	Local Subfield
+a	NR	Tag of the Source Format Field
+b	NR	Indicators and Subfields of the Source Format Field
+c	R	Foreign UNIMARC subfield
+d	R	Foreign UNIMARC subfield
+e	R	Foreign UNIMARC subfield
+f	R	Foreign UNIMARC subfield
+g	R	Foreign UNIMARC subfield
+h	R	Foreign UNIMARC subfield
+i	R	Foreign UNIMARC subfield
+j	R	Foreign UNIMARC subfield
+k	R	Foreign UNIMARC subfield
+l	R	Foreign UNIMARC subfield
+m	R	Foreign UNIMARC subfield
+n	R	Foreign UNIMARC subfield
+o	R	Foreign UNIMARC subfield
+p	R	Foreign UNIMARC subfield
+q	R	Foreign UNIMARC subfield
+r	R	Foreign UNIMARC subfield
+s	R	Foreign UNIMARC subfield
+t	R	Foreign UNIMARC subfield
+u	R	Foreign UNIMARC subfield
+v	R	Foreign UNIMARC subfield
+w	R	Foreign UNIMARC subfield
+x	R	Foreign UNIMARC subfield
+y	R	Foreign UNIMARC subfield
+z	R	Foreign UNIMARC subfield
